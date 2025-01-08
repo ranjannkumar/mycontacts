@@ -1,4 +1,4 @@
-exports.constants={
+constants={
   VALIDATION_ERROR:400,
   UNAUTHORIZED:401,
   FORBIDDEN: 403,
@@ -6,5 +6,6 @@ exports.constants={
   SERVER_ERROR:500,
 }
 
+
  const DB_NAME="contact"
- module.exports=DB_NAME;
+ module.exports={DB_NAME,constants};
