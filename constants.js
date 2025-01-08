@@ -5,3 +5,6 @@ exports.constants={
   NOT_FOUND: 404,
   SERVER_ERROR:500,
 }
+
+ const DB_NAME="contact"
+ module.exports=DB_NAME;
